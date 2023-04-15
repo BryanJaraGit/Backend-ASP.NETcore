@@ -37,7 +37,6 @@ namespace Backend_ASP.NETcore.Controllers
             {
                 return BadRequest(ex.Message);
             }
-
         }
 
         [HttpGet("{id}")]
